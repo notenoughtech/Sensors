@@ -33,4 +33,4 @@ while GPIO.input(ECHO)==1: #Check whether the ECHO is HIGH
 	if distance > 2 and distance < 400: #Check whether the distance is within range
 		print "Distance to your object:",distance - 0.5,"cm" #Print distance with 0.5 cm calibration
 	else:
-			print "Out of range" #display out of range
+		print "Out of range" #display out of range
